@@ -9,5 +9,9 @@ const controller = require('./controller')
 
 app.get("/api/compliment", controller.getCompliment);
 app.get("/api/fortune", controller.getFortune);
+app.get("/api/luckyNumber", controller.getLuckyNum);
+app.get("/api/color", controller.getColor);
+app.get("/api/time", controller.getTime);
+
 
 app.listen(4000, () => console.log("Server running on 4000"));
